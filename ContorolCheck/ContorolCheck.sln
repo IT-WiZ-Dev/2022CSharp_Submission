@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContorolCheck", "ContorolCheck\ContorolCheck.csproj", "{AE58F046-8B52-4AC9-BA9D-83BD448CAE52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE58F046-8B52-4AC9-BA9D-83BD448CAE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE58F046-8B52-4AC9-BA9D-83BD448CAE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE58F046-8B52-4AC9-BA9D-83BD448CAE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE58F046-8B52-4AC9-BA9D-83BD448CAE52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154984E2-53C4-4532-AF7E-DF934FE6D8B8}
+	EndGlobalSection
+EndGlobal

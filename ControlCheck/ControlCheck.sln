@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCheck", "ControlCheck\ControlCheck.csproj", "{6664B077-B383-408F-9577-B1F09616E406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6664B077-B383-408F-9577-B1F09616E406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6664B077-B383-408F-9577-B1F09616E406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6664B077-B383-408F-9577-B1F09616E406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6664B077-B383-408F-9577-B1F09616E406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5766E8A6-2A98-4489-B0BC-0C24A95B1B76}
+	EndGlobalSection
+EndGlobal

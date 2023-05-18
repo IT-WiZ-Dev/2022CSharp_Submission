@@ -30,7 +30,7 @@ namespace SplitCost
             warikan = money / ninzu;
             amari = money % ninzu;
 
-            label6.Text = money + "円";
+            label6.Text = warikan + "円";
             label8.Text = amari + "円";
         }
     }

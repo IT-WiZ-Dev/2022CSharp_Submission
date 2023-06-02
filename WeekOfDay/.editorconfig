@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0055: 書式設定を修正します
+dotnet_diagnostic.IDE0055.severity = none

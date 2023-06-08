@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "教科書第5章練習問題(MultiplicationTable)", "教科書第5章練習問題(MultiplicationTable)\教科書第5章練習問題(MultiplicationTable).csproj", "{29BA7AF9-40B4-4EE8-95E0-F9E3DD60AA01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BA7AF9-40B4-4EE8-95E0-F9E3DD60AA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BA7AF9-40B4-4EE8-95E0-F9E3DD60AA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BA7AF9-40B4-4EE8-95E0-F9E3DD60AA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BA7AF9-40B4-4EE8-95E0-F9E3DD60AA01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C023C7-BD33-48E3-8D7E-B1B3DEDE70A2}
+	EndGlobalSection
+EndGlobal

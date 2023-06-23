@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiAlarm", "MultiAlarm\MultiAlarm.csproj", "{30B9E837-C6B6-484F-A89D-5F9A4AA7D586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30B9E837-C6B6-484F-A89D-5F9A4AA7D586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B9E837-C6B6-484F-A89D-5F9A4AA7D586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B9E837-C6B6-484F-A89D-5F9A4AA7D586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B9E837-C6B6-484F-A89D-5F9A4AA7D586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42BFB086-E82F-4517-B26B-A8B36ACBFF36}
+	EndGlobalSection
+EndGlobal

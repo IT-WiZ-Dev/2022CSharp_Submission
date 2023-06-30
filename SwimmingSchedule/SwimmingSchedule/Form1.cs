@@ -30,15 +30,15 @@ namespace SwimmingSchedule
             numericUpDown2.Value = DateTime.Now.Month;
 
             data = new List<course>();
-            data.Add(new course("ベビーコース",     1, 14, 1000));
-            data.Add(new course("幼児コース",       2, 10, 1000));
-            data.Add(new course("小学生コース",     3, 17,  800));
-            data.Add(new course("中学生コース",     4, 19,  800));
+            data.Add(new course("ベビーコース", 1, 14, 1000));
+            data.Add(new course("幼児コース", 2, 10, 1000));
+            data.Add(new course("小学生コース", 3, 17, 800));
+            data.Add(new course("中学生コース", 4, 19, 800));
             data.Add(new course("レディースコース", 5, 20, 1000));
-            data.Add(new course("一般コース",       6, 20, 1200));
-            data.Add(new course("家族コース",       0, 10, 1500));
+            data.Add(new course("一般コース", 6, 20, 1200));
+            data.Add(new course("家族コース", 0, 10, 1500));
 
-            foreach(course obj in data)
+            foreach (course obj in data)
             {
                 listBox1.Items.Add(obj.CourseName);
             }
@@ -58,11 +58,7 @@ namespace SwimmingSchedule
             DateTime startDate = new DateTime(year, month, 1);
 
             // 選択された曜日と一致する日付を取得（月の最後の3日間を除外）
-            List<DateTime> matchingDates = GetMatchingDates(startDate, (DayOfWeek)dayOfWeek);
-
-            // 月の最後の3日間を除外
-            DateTime endDate = startDate.AddMonths(1).AddDays(-3);
-            matchingDates = matchingDates.Where(date => date <= endDate).ToList();
+            List<DateTime> matchingDates = GetMatchingDates(startDate, (DayOfWeek)dayOfWeek, 3);
 
             // 結果を表示
             label9.Text = string.Join(", ", matchingDates.Select(date => date.Day.ToString() + "日"));
@@ -71,7 +67,7 @@ namespace SwimmingSchedule
             label11.Text = totalPrice.ToString() + "円";
         }
 
-        private List<DateTime> GetMatchingDates(DateTime startDate, DayOfWeek targetDayOfWeek)
+        private List<DateTime> GetMatchingDates(DateTime startDate, DayOfWeek targetDayOfWeek, int excludeLastDays)
         {
             List<DateTime> matchingDates = new List<DateTime>();
 
@@ -79,7 +75,8 @@ namespace SwimmingSchedule
             int year = startDate.Year;
             int month = startDate.Month;
             int daysInMonth = DateTime.DaysInMonth(year, month);
-            for (int day = 1; day <= daysInMonth; day++)
+
+            for (int day = 1; day <= daysInMonth - excludeLastDays; day++)
             {
                 DateTime currentDate = new DateTime(year, month, day);
                 if (currentDate.DayOfWeek == targetDayOfWeek)
@@ -87,11 +84,7 @@ namespace SwimmingSchedule
                     matchingDates.Add(currentDate);
                 }
             }
-
             return matchingDates;
         }
-
-
-
     }
 }

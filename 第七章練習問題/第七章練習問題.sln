@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第七章練習問題", "第七章練習問題\第七章練習問題.csproj", "{B03E22BB-6694-4E8F-8563-69DF4E80E228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03E22BB-6694-4E8F-8563-69DF4E80E228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03E22BB-6694-4E8F-8563-69DF4E80E228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03E22BB-6694-4E8F-8563-69DF4E80E228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03E22BB-6694-4E8F-8563-69DF4E80E228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D885DF7-71FB-4852-B974-3B16ADD379D8}
+	EndGlobalSection
+EndGlobal

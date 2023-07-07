@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace SwimmingSchedule
 {
     partial class Form1
@@ -249,6 +251,11 @@ namespace SwimmingSchedule
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

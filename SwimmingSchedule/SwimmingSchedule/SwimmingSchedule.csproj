@@ -48,8 +48,8 @@
   <ItemGroup>
     <Compile Include="Course.cs" />
     <Compile Include="..\Form1.cs">
-      <SubType>Form</SubType>
       <Link>Form1.cs</Link>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="..\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>

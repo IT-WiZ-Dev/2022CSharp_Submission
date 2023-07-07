@@ -18,116 +18,66 @@ using System.Threading.Tasks;
 
 using System.Windows.Forms;
 
- 
 
 namespace SwimmingSchedule
-
 {
-
-
-
     public partial class Form1 : Form
-
     {
-
-        List<Course> data;
-
+        List<Course> date;
         public Form1()
-
         {
-
             InitializeComponent();
-
         }
-
-
 
         private void Form1_Load(object sender, EventArgs e)
-
         {
+            date = new List<Course>();
+            date.Add(new Course("ベビーコース", 1, 14, 1000));
+            date.Add(new Course("幼児コース", 2, 10, 1000));
+            date.Add(new Course("小学生コース", 3, 17, 800));
+            date.Add(new Course("中学生コース", 4, 19, 800));
+            date.Add(new Course("レディースコース", 20, 14, 1000));
+            date.Add(new Course("一般コース", 6, 20, 1200));
+            date.Add(new Course("家族コース", 0, 10, 1500));
 
-            data = new List<Course>();
-
-            data.Add(new Course("ベビーコース", 1, 14, 1000));
-
-            data.Add(new Course("幼児コース", 2, 10, 1000));
-
-            data.Add(new Course("小学生コース", 3, 17, 800));
-
-            data.Add(new Course("中学生コース", 4, 19, 800));
-
-            data.Add(new Course("レディースコース", 5, 20, 1000));
-
-            data.Add(new Course("一般コース", 6, 20, 1200));
-
-            data.Add(new Course("家族コース", 0, 10, 1500));
-
-
-
-            foreach (Course obj in data)
-
+            foreach (Course obj in date)
             {
-
                 listBox1.Items.Add(obj.CourseName);
-
             }
-
-        }
-
-
-
-        private void numericUpDownY_ValueChanged(object sender, EventArgs e)
-
-        {
-
-
-
+            DateTime now = DateTime.Now;
+            int year = now.Year;
+            int month = now.Month;
+            numericUpDown1.Value = year;
+            numericUpDown2.Value = month;
 
 
         }
-
-
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-
-        {
-
-
-        }
-
-
-
-
 
         private void button1_Click(object sender, EventArgs e)
-
         {
-
-            label1.Text = "授業日";
-
-            label2.Text = "開始時間";
-
-            label3.Text = "授業料";
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
+            int year = (int)numericUpDown1.Value;
+            int month = (int)numericUpDown2.Value;
             int index = listBox1.SelectedIndex;
-            Console.WriteLine(data[index].CourseName);
+            int endDay = DateTime.DaysInMonth(year, month);
+            int cnt = 0;
+            string a = "";
 
-
-            DateTime t = new DateTime(2023, 6 ,30);
-
-            int endDay = DateTime.DaysInMonth(2023, 6);
-
-            for (int i = 1; i <= endDay; i++) 
+            for (int i = 1; i <= endDay - 3; i++)
             {
-                DateTime t2 = new DateTime(2023, 6, i);
+                DateTime dt = new DateTime(year, month, i);
+                int w = (int)dt.DayOfWeek;
+                if (w == date[index].DayOfWeek)
+                {
+                    a = a + i + ",";
+                    cnt = cnt + 1;
+                }
+                label4.Text = a;
+                label5.Text = Convert.ToString(date[index].StartTime);
+                label6.Text = Convert.ToString(date[index].Price * cnt);
             }
-            _ = (int)t.DayOfWeek == (int)t.DayOfWeek;
 
         }
-    }
 
+
+    }
 }

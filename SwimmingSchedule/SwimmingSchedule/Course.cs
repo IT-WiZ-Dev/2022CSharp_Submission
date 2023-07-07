@@ -40,6 +40,8 @@ namespace SwimmingSchedule
             }
         }
 
-
+        public int DayOfWeek { get; internal set; }
+        public object StartTime { get; internal set; }
+        public int Price { get; internal set; }
     }
 }

@@ -98,30 +98,27 @@ namespace 第6章練習問題_MultiAlarm_
             FormSet formSet2 = new FormSet();
 
 
-            if (formSet2.ShowDialog() == DialogResult.OK)
-            {
+            formSet2.ShowDialog();
                 //アラームの設定
                 alarmHour2 = formSet2.AlarmHour;
                 alarmMinute2 = formSet2.AlarmMinute;
                 labelAlarmTime2.Text = alarmHour2.ToString("00") + ":" + alarmMinute2.ToString("00");
                 checkAlarm2.Checked = true;
-            }
-            formSet2.Dispose();
+            
         }
 
         //設定ボタン3
         private void buttonAlarmSet3_Click(object sender, EventArgs e)
         {
             FormSet formSet3 = new FormSet();
-            if (formSet3.ShowDialog() == DialogResult.OK)
-            {
+
+            formSet3.ShowDialog();
                 //アラームの設定
                 alarmHour3 = formSet3.AlarmHour;
                 alarmMinute3 = formSet3.AlarmMinute;
                 labelAlarmTime3.Text = alarmHour3.ToString("00") + ":" + alarmMinute3.ToString("00");
                 checkAlarm3.Checked = true;
-            }
-            formSet3.Dispose();
+            
         }
 
 

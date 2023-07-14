@@ -56,7 +56,7 @@ namespace 第6章練習問題_MultiAlarm_
             // checkAlarm1
             // 
             this.checkAlarm1.AutoSize = true;
-            this.checkAlarm1.Location = new System.Drawing.Point(31, 87);
+            this.checkAlarm1.Location = new System.Drawing.Point(31, 84);
             this.checkAlarm1.Name = "checkAlarm1";
             this.checkAlarm1.Size = new System.Drawing.Size(22, 21);
             this.checkAlarm1.TabIndex = 0;
@@ -65,7 +65,7 @@ namespace 第6章練習問題_MultiAlarm_
             // labelAlarmTime1
             // 
             this.labelAlarmTime1.AutoSize = true;
-            this.labelAlarmTime1.Location = new System.Drawing.Point(95, 83);
+            this.labelAlarmTime1.Location = new System.Drawing.Point(95, 84);
             this.labelAlarmTime1.Name = "labelAlarmTime1";
             this.labelAlarmTime1.Size = new System.Drawing.Size(48, 18);
             this.labelAlarmTime1.TabIndex = 1;
@@ -84,7 +84,7 @@ namespace 第6章練習問題_MultiAlarm_
             // checkAlarm2
             // 
             this.checkAlarm2.AutoSize = true;
-            this.checkAlarm2.Location = new System.Drawing.Point(31, 133);
+            this.checkAlarm2.Location = new System.Drawing.Point(31, 129);
             this.checkAlarm2.Name = "checkAlarm2";
             this.checkAlarm2.Size = new System.Drawing.Size(22, 21);
             this.checkAlarm2.TabIndex = 3;

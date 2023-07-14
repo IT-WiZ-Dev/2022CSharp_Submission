@@ -63,16 +63,6 @@ namespace P304
             ankou.Run(out int x3, out int y3);
             ankou.PrictureMove(x3, y3);
 
-            /*
-            bool rc2 = ambulance.Run(out int x2, out int y2);
-            bool rc3 = helicopter.Run(out int x3, out int y3);
-            ambulance.PrictureMove(x2, y2);
-            helicopter.PrictureMove(x3, y3);
-            */
-
-
-
-
         }
 
         private void buttonStart_Click(object sender, EventArgs e)

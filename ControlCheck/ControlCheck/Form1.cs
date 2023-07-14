@@ -26,19 +26,19 @@ namespace ControlCheck
         //radioButton1_CheckedChangedイベントハンドラ
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            labelRadioButton1.Text = "チェックボックス：" + radioButton1.Checked;
+            labelRadioButton1.Text = "ラジオボタン1：" + radioButton1.Checked;
         }
 
         //radioButton2_CheckedChangedイベントハンドラ
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            labelRadioButton2.Text = "チェックボックス：" + radioButton2.Checked;
+            labelRadioButton2.Text = "ラジオボタン2：" + radioButton2.Checked;
         }
 
         //numericUpDown1_CheckedChangedイベントハンドラ
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            labelNumericUpDown.Text = "チェックボックス：" + numericUpDown1.Value;
+            labelNumericUpDown.Text = "数値：" + numericUpDown1.Value;
         }
     }
 }

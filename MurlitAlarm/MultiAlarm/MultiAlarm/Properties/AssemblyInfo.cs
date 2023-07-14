@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
-[assembly: AssemblyTitle("WeekOfDay")]
+[assembly: AssemblyTitle("MultiAlarm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WeekOfDay")]
+[assembly: AssemblyProduct("MultiAlarm")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // このプロジェクトが COM に公開される場合、次の GUID が typelib の ID になります
-[assembly: Guid("70a4af38-8251-42f5-be76-fc78fa71f779")]
+[assembly: Guid("80297ff5-75ca-476d-8084-53c6ebacd721")]
 
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 //

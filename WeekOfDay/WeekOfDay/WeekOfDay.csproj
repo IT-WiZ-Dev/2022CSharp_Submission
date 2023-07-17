@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03F706AD-5F6A-48D2-9DB2-C635A652E273}</ProjectGuid>
+    <ProjectGuid>{258FA47C-C69F-4DBC-A4DF-3F2A7C9378D3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ControlCheck</RootNamespace>
-    <AssemblyName>ControlCheck</AssemblyName>
+    <RootNamespace>WeekOfDay</RootNamespace>
+    <AssemblyName>WeekOfDay</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

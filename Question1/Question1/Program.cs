@@ -24,6 +24,15 @@ namespace Question1
     {
         static void Main(string[] args)
         {
+            int n1, n2,n3;
+            Console.Write("入力値１：");
+            n1 = int.Parse(Console.ReadLine());
+            Console.Write("入力値２：");
+            n2 = int.Parse(Console.ReadLine());
+            n3 = n1 + n2;
+            Console.Write("出力："+n3);
+           
+            Console.Read();
         }
     }
 }

@@ -22,8 +22,14 @@ namespace Question3
 {
     class Program
     {
+        int n1, n2;
+        public void AddNum( int num1, int num2,ref int num3)
+        {
+            num3 = num1 + num2;
+        }
         static void Main(string[] args)
         {
+            
         }
     }
 }

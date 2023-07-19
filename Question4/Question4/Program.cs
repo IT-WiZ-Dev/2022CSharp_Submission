@@ -19,9 +19,12 @@ namespace Question4
         {
             string[] arr = new string[]{"orange","lemon","apple" };
 
-
-
-
+            foreach(string n in arr)
+            {
+                Console.WriteLine($"{n}");
+            }
+           
+            Console.Read();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace WeekOfDay
 {
-    partial class Form1
+    partial class FormWeek
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -76,7 +76,6 @@ namespace WeekOfDay
             this.label4.Size = new System.Drawing.Size(43, 15);
             this.label4.TabIndex = 3;
             this.label4.Text = "あああ";
-          
             // 
             // sansyutu
             // 
@@ -86,7 +85,7 @@ namespace WeekOfDay
             this.sansyutu.TabIndex = 4;
             this.sansyutu.Text = "曜日算出";
             this.sansyutu.UseVisualStyleBackColor = true;
-          
+            this.sansyutu.Click += new System.EventHandler(this.sansyutu_Click_1);
             // 
             // textBox1
             // 
@@ -139,7 +138,7 @@ namespace WeekOfDay
             0,
             0});
             // 
-            // Form1
+            // FormWeek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +151,7 @@ namespace WeekOfDay
             this.Controls.Add(this.niti);
             this.Controls.Add(this.tuki);
             this.Controls.Add(this.seireki);
-            this.Name = "Form1";
+            this.Name = "FormWeek";
             this.Text = "曜日算出";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

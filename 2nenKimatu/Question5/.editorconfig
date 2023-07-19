@@ -1,0 +1,4 @@
+﻿[*.{cs,vb}]
+
+# IDE0040: アクセシビリティ修飾子を追加します
+dotnet_diagnostic.IDE0040.severity = none

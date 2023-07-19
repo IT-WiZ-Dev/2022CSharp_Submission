@@ -42,7 +42,7 @@ namespace SwimmingSchedule
             int week = c.weeknum(listBoxCourse.SelectedIndex);
 
             DateTime dt = new DateTime((int)numericUpDownYear.Value, (int)numericUpDownMonth.Value, 1);
-            for (int i = 1;dt.Day < (DateTime.DaysInMonth(dt.Year,dt.Month))-2;i++)
+            for (int i = 1;dt.Day < (DateTime.DaysInMonth(dt.Year,dt.Month))-3;i++)
             {
                 dt = new DateTime((int)numericUpDownYear.Value, (int)numericUpDownMonth.Value, i);
                 if ((int)dt.DayOfWeek == week) 

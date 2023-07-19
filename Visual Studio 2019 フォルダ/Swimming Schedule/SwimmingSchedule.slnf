@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "Swimming Schedule.sln",
+    "projects": [
+      "Swimming Schedule\\Swimming Schedule.csproj"
+    ]
+  }
+}

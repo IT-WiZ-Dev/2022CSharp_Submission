@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "Fising.sln",
+    "projects": [
+      "Fising\\Fising.csproj"
+    ]
+  }
+}

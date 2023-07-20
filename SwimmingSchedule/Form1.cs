@@ -74,6 +74,7 @@ namespace SwimmingSchedule
                 label4.Text = a;
                 label5.Text = Convert.ToString(date[index].StartTime);
                 label6.Text = Convert.ToString(date[index].Price * cnt);
+
             }
 
         }

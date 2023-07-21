@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwimmingSchedule", "SwimmingSchedule\SwimmingSchedule.csproj", "{11C7A9AD-39C6-4854-91B9-B0752B911930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C7A9AD-39C6-4854-91B9-B0752B911930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C7A9AD-39C6-4854-91B9-B0752B911930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C7A9AD-39C6-4854-91B9-B0752B911930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C7A9AD-39C6-4854-91B9-B0752B911930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82021D80-5C3C-4F21-87F0-41D1F982A895}
+	EndGlobalSection
+EndGlobal

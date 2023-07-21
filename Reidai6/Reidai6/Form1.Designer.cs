@@ -170,6 +170,7 @@ namespace MultiAlarm
             this.Controls.Add(this.labelNow);
             this.Name = "Form1";
             this.Text = "アラーム";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
